@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fim do Jogo</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 40px;
+            border-radius: 15px;
+            width: 600px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: #00c896;
+            color: white;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Parabéns!</h1>
+
+        <p>
+            Você concluiu o jogo e conseguiu identificar e corrigir as informações incorretas.
+        </p>
+
+        <p>
+            Esperamos que tenha se divertido testando sua memória e atenção aos detalhes.
+        </p>
+
+        <button onclick="reiniciar()">Jogar novamente</button>
+
+    </div>
+
+    <script>
+        function reiniciar() {
+            window.location.href = "capa.html";
+        }
+    </script>
+
+</body>
+
+</html>
