@@ -216,7 +216,7 @@ mask.style.display = "none";
 
 },1000);
 
-},15000);
+},10000);
 
 }
 
@@ -256,14 +256,14 @@ let timerInterval;
 
 function startTimer(){
 
-counting = 15;
+counting = 10;
 document.getElementById("timer").textContent = counting;
 document.getElementById("tictac").play()
 timerInterval = setInterval(()=>{
 
 counting--;
 document.getElementById("timer").textContent = counting;
-if(counting <= 5){
+if(counting <= 3){
     document.getElementById("timer").style.background = "rgba(233, 0, 0, 0.3)"
 }
 
