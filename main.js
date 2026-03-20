@@ -183,6 +183,8 @@ function pass(){
 levelNumber++;
 
 if(levelNumber >= levels.length){
+    document.getElementById("music").pause()
+   
  window.location.href = "final.html"
 }
 
@@ -201,6 +203,8 @@ start();
 }
 
 function start(){
+    document.getElementById("music").play()
+     document.getElementById("music").volume = 0.4
 
 passbutton.style.margin = "0 -170px 0 0";
 
@@ -279,3 +283,4 @@ clearInterval(timerInterval);
 
 }
 pass()
+window
