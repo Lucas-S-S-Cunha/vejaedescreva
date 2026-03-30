@@ -4,23 +4,50 @@ let levelNumber = -1;
 const levels = [
 {
 Image: "./img/imagem1.jpeg",
-text: `Na imagem, dentro de um restaurante submarino, vários personagens estão comemorando de forma muito animada enquanto 
+text: `<p>
+No restaurante submarino, o ambiente está 
 <select>
-<option value="0">hambúrgueres</option>
-<option value="1">saladas</option>
-<option value="2">livros</option>
-</select> voam pelo ar. No centro da cena, Bob Esponja aparece sorrindo e equilibrando uma bandeja cheia de hambúrgueres, enquanto dança sobre uma mesa, demonstrando muita 
+<option value="0">movimentado e cheio</option>
+<option value="1">quase vazio</option>
+<option value="2">com alguns clientes</option>
+</select>. 
+
+Bob Esponja aparece 
 <select>
-<option value="0">tristeza</option>
-<option value="1">alegria</option>
-<option value="2">raiva</option>
-</select>. Ao mesmo tempo, Patrick pula feliz ao lado, e outros clientes levantam os braços comemorando, o que reforça o clima de 
+<option value="0">andando pelas mesas</option>
+<option value="1">alegre e com o corpo elevado</option>
+<option value="2">concentrado no trabalho</option>
+</select>, equilibrando vários hambúrgueres em uma bandeja. 
+
+Patrick está 
 <select>
-<option value="0">festa</option>
-<option value="1">funeral</option>
-<option value="2">indiferença</option>
-</select> no local.`,
-answers: "010"
+<option value="0">interagindo com outros personagens</option>
+<option value="1">dançando</option>
+<option value="2">pegando um hambúrguer no ar</option>
+</select>. 
+
+Os hambúrgueres estão 
+<select>
+<option value="0">nas mãos dos personagens</option>
+<option value="1">dispersos no ar</option>
+<option value="2">distribuídos nas mesas</option>
+</select>, enquanto Lula Molusco demonstra 
+<select>
+<option value="0">indiferença</option>
+<option value="1">tédio</option>
+<option value="2">entusiasmo</option>
+</select> ao atender no caixa. 
+
+O piso 
+<select>
+<option value="0">verde</option>
+<option value="1">azul</option>
+<option value="2">marrom</option>
+</select> reforça a sensação de festa no local.
+</p>
+</p>
+`,
+answers: "012101"
 },
 {
 Image: "./img/imagem2.jpeg",
@@ -74,30 +101,46 @@ answers: "11021"
 },
 {
 Image: "./img/imagem4.jpeg",
-text: `A imagem mostra um <select>
-<option value="0">shopping</option>
-<option value="1">parque</option>
-<option value="2">estádio</option>
-</select>. No centro há um <select>
-<option value="0">campo</option>
-<option value="1">prédio</option>
-<option value="2">lago</option>
-</select> com uma ponte de madeira (<select>
-<option value="0">azul, verde, amarelo</option>
-<option value="1">marrom, branca, cinza</option>
-<option value="2">preta, vermelha, laranja</option>
-</select>) atravessando a água. Ao redor do lago há gramados amplos e várias árvores.
-Perto do lago aparecem arbustos e muitas flores em cores, sendo <select>
-<option value="0">3</option>
-<option value="1">7</option>
-<option value="2">5</option>
-</select> da cor rosa e <select>
-<option value="0">4</option>
-<option value="1">1</option>
-<option value="2">2</option>
-</select> da cor roxo, espalhadas pelo jardim. A água do lago parece refletir o céu
-No fundo da paisagem há mais árvores e áreas verdes. O céu está azul e limpo.`,
-answers: "12121"
+text: `<p>
+A imagem mostra um 
+<select>
+<option value="0">parque urbano</option>
+<option value="1">área industrial</option>
+<option value="2">jardim botânico</option>
+</select> com um lago de água lisa, atravessado por uma ponte de 
+<select>
+<option value="0">madeira</option>
+<option value="1">plástico</option>
+<option value="2">metal</option>
+</select>. 
+
+Ao redor, há gramados e árvores de 
+<select>
+<option value="0">copa esparsa</option>
+<option value="1">sem folhas</option>
+<option value="2">folhagem densa</option>
+</select>. 
+
+Próximo ao lago, aparecem flores 
+<select>
+<option value="0">vermelhas</option>
+<option value="1">rosas</option>
+<option value="2">roxas</option>
+</select>. 
+
+A água reflete parcialmente o céu, que está 
+<select>
+<option value="0">roxo</option>
+<option value="1">alaranjado</option>
+<option value="2">azul-claro</option>
+</select> e 
+<select>
+<option value="0">nublado</option>
+<option value="1">chuvoso</option>
+<option value="2">sem nuvens</option>
+</select>.
+</p>`,
+answers: "022121"
 },
 {
 Image: "./img/imagem5.jpeg",
